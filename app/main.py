@@ -22,7 +22,7 @@ app.add_middleware(
 
 @app.get("/")
 def root():
-    return {"message":"Hello World"}
+    return {"message":"Welcome to the API service, go to https://rajsangani.xyz/docs to learn more"}
 
 
 app.include_router(posts.router)
